@@ -17,16 +17,11 @@
 			<!-- Global site navigation -->
 			<!-- Claire Comment: Did this on the line below instead -->
 <!-- STEP 5a: We are now marooned on this page with no way back to the home page except the 'Back' button - build an LI and an A element above pointing back to the index.php page -->
-			<nav>
-				<ul>
-					<li><a href="index.php">Home</a></li>
-					<li><a href="red.php">Red Blocks</a></li>
-					<li><a href="blue.php">Blue Blocks</a></li>
-					<li><a href="yellow.php">Yellow Blocks</a></li>
-				</ul>
-			</nav>
+<?php
+	// Grab site navigation
+	include("includes/nav.php");
+?>
 <!-- STEP 5b: Upload this changed file, and try it in the browser - then go back to index.php for STEP 6 -->
-
 		</header>
 		<!-- Page-level main content -->
 		<main>
