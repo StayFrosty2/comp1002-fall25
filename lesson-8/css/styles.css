@@ -111,8 +111,8 @@ a {
 /* STEP 9: IMPORTANCE - Add the !important keyword to the second, less-specific rule above with the 'A' selector - notice this now wins out over the earlier, more specific rule - be aware that !important breaks the CSS cascade and should be used with care (usually just for troubleshooting) - head back to index.html to finish up with STEP 10 */
 
 nav a:link{
-	color: #FFF;
-	text-decoration: none;
+		color: #FFF;
+		text-decoration: none;
 }
 nav a:visited{
 	color: #FFF;
