@@ -46,7 +46,7 @@ h1 {
 }
 /* STEP 14: Apply text-shadow to the H1 element (horizontal offset, vertical offset, blur radius, color) */
 h1 {
-
+	text-shadow: 2px, 2px, 1in,black;
 }
 
 /* STEP 15: In your browser, open up the developer tools, and click on the various parts of the DOM - observe the CSS panel - that's it for now! */
