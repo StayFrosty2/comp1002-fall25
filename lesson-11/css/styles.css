@@ -51,7 +51,7 @@ nav li li {
 nav li a {
     
     /* STEP 10: Set anchors to function as full-width clickable bars with display: block */
-    
+    display: block;
 }
 /* STEP 9: Show the 2nd-level list (UL) when the parent LI is moused over (:hover) or it is in focus (:focus-within) - you will need to build a grouped selector */
 
