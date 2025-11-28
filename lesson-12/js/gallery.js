@@ -4,7 +4,7 @@
 // IMPORTANT: Begin by adding a SCRIPT element to 'index.html' that refers to this EXTERNAL JavaScript File
 
 // STEP 1a: Wait until the DOM is ready to be manipulated
-
+document.addEventListener("DOMContentLoaded", function(){
 // STEP 2a: Grab the UL for the image gallery and assign it to the variable 'gallery'
 
 // STEP 2b: Create an array composed of all the A (anchor) elements inside that UL, now referred to as 'gallery'
@@ -32,3 +32,4 @@
 // STEP 2d: End the loop through the links array
 
 // STEP 1b: End the DOM ready function
+});
